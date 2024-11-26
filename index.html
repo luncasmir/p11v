@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<style>
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #F6DDC9;
+    }
+     img{
+        width: 100%;
+        height: auto;
+    }
+ 
+    .lora-regular {
+        font-family: "Lora", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+    }
+    .card_frame {
+        width: 500px;
+        height: 500px;
+    }
+    .card_frame .headers{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        color: white;
+    }
+    .card_frame .headers img{
+        width: 74px;
+        height: 77px;
+    }
+    .card_frame .headers h1{
+        font-size: 16px;
+    }
+    .card_frame .main{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .card_frame .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .card_frame .footers .imgs{
+        width: 19px;
+        height: 19px;
+    }
+
+</style>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="card_frame">
+                <img src="img/frame1.png" alt="">
+                    <div class="headers">
+                        <img src="img/iconoder.png" alt="">
+                        <h1 class="inter-regular">Organizational</h1>
+                    </div>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                        <h1 class="lora-regular">Growth</h1>
+                        <h2 class="inter-regular">Create a development plan that best fits your goals and sense of purpose.</h2>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footers">
+                <h1 class="inter-regular">4.5</h1>
+                <h2 class="inter-regular">32%</h2>
+                <div class="imgs">
+                    <img src="img/star.png" alt="">
+                    <img src="img/elipseabajo.png" alt="">
+                </div>
+        </div>
+    </div>
+        </footer>
+    </div>
+</body>
+</html>
